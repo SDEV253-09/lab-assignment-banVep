@@ -50,7 +50,7 @@
 		$_SESSION['valid_user'] = $username;
 		
 		// provide link to member page 
-		do_html_header('Registration succesddful');
+		do_html_header('Registration successful');
 		echo 'Your registration was successful. Go to the memebers page to start setting up your bookmarks!';
 		do_html_url('member.php', 'Go to members page');
 		
